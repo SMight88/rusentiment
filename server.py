@@ -10,7 +10,7 @@ def ready():
     return 'OK'
 
 
-@app.route('/', methods=['POST'])
+@app.route('/classify', methods=['POST'])
 def rusentiment():
     request_data = request.get_json()
     text = request_data['text']

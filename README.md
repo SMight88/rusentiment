@@ -1,6 +1,8 @@
 RuSentiment
 =======================================================
 
+**The service starts via server.py**
+
 **Additional files required.**
 
 Move to **scripts** folder and run **[download.sh](scripts/download.sh)**. Or manually (see below).
