@@ -20,7 +20,7 @@ VK embeddings отсюда: http://text-machine.cs.uml.edu/projects/rusentiment/
 - SVC: F1 0.689
 - MLP (final model): F1 0.738
 
-Результаты из original paper для лучшей модели: F1 0.728.
+Результаты из original paper для лучшей модели: F1 0.728 (удалось улучшить на ~1%).
 
 Планы:
 - Использовать fasttext VK word embeddings. [Эмбеддинги из оригинальной статьи](http://text-machine.cs.uml.edu/projects/rusentiment/) предоставлены только в формате .vec, что дает возможность загрузить их только, как w2v без информации о символьных н-граммах.
